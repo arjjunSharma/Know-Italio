@@ -17,7 +17,7 @@ txtInput.addEventListener("keyup", function(){
     wordLength.innerText = output;
 });
 
-//Error Handling
+
 function errorHandler(error) {
     console.log("error occured", error);
     alert("Something is wrong with the server, try again later");
